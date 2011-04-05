@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc. -->
+    <string name="app_label">信息</string>
+
+    <!-- Command name to open a Compose screen; displays in conversation list -->
+    <string name="new_message">新信息</string>
+    <!-- Summary text under "New Message" command; displays in conversation list -->
+    <string name="create_new_message">撰写新信息</string>
+    <!-- Context menu item on an individual message for dialing the sender's phone number -->
+    <string name="menu_call_back">呼叫<xliff:g id="name">%s</xliff:g></string>
+    <!-- Context menu item on an individual message for emailing the sender -->
+    <string name="menu_send_email">发送电子邮件至<xliff:g id="name">%s</xliff:g></string>
+
+    <!-- Menu item for starting a new conversation -->
+    <string name="menu_compose_new">撰写</string>
+    <!-- Menu item for accessing application settings -->
+    <string name="menu_preferences">设置</string>
+    <string name="menu_add_address_to_contacts">将<xliff:g id="name">%s</xliff:g>添加到联系人</string>
+    <!-- Menu item to call the recipient of the conversation on the phone (imperative verb) -->
+    <string name="menu_call">呼叫</string>
+    <!-- Menu item for deleting all conversations -->
+    <string name="menu_delete_all">删除所有会话</string>
+    <!-- Context menu item on an individual conversation for deleting that conversation -->
+    <string name="menu_delete">删除会话</string>
+    <!-- This string is no longer used. It used to be the menu item for viewing all messages that
+         were unable to be delivered, i.e. send failed -->
+    <string name="menu_undelivered_messages">未能送出的信息</string>
+    <!-- Context menu item on an individual conversation for viewing that conversation -->
+    <string name="menu_view">查看会话</string>
+    <!-- Message that appears on screen while SIM card messages are retrieved -->
+    <string name="refreshing">正在刷新\u2026</string>
+
+    <!-- Tag appearing on conversations in the conversation list that contain a draft message -->
+    <string name="has_draft">草稿</string>
+
+    <!-- Appearance of message sender in multi-recipient messages, e.g. "me to Megan" -->
+    <string name="broadcast_from_to">由<xliff:g id="sender" example="me">%1$s</xliff:g>发送给<xliff:g id="recipient" example="Megan">%2$s</xliff:g></string>
+    <!-- Name to use when we have an unspecified sender -->
+    <string name="anonymous_recipient">匿名收件人</string>
+    <!-- Subject to display in the conversation list if there is no subject -->
+    <string name="no_subject_view">（无主题）</string>
+
+    <!-- Name of the local user when displaying sender of an outgoing message (personal pronoun) -->
+    <string name="messagelist_sender_self">我</string>
+    <!-- Context menu item on an individual message for viewing an attached picture -->
+    <string name="view_picture">查看照片</string>
+    <!-- Context menu item on an individual message for viewing an attached slideshow -->
+    <string name="view_slideshow">观看幻灯片</string>
+    <!-- Context menu item on an individual message for viewing message details such as time and date -->
+    <string name="view_message_details">查看短信详情</string>
+    <!-- Context menu item on an individual message for viewing a delivery report -->
+    <string name="view_delivery_report">查看报告</string>
+    <!-- Context menu item on an individual message for deleting only that message -->
+    <string name="delete_message">删除信息</string>
+    <!-- Time and date a message was sent -->
+    <string name="sent_on">"发送时间：<xliff:g id="date">%s</xliff:g>"</string>
+    <!-- Time and date a message is due to expire -->
+    <string name="expire_on">"过期时间：<xliff:g id="date">%s</xliff:g>"</string>
+    <!-- Abbreviation for "kilobyte" -->
+    <string name="kilobyte">KB</string>
+
+    <!-- Dialog box title brought up when warning the user that a message could not be delivered -->
+    <string name="undelivered_msg_dialog_title">信息发送失败</string>
+    <!-- Dialog box message indicating that a message could not be delivered, including the time of last attempt -->
+    <string name="undelivered_msg_dialog_body">无法发送此信息。\n尝试发送的时间：<xliff:g id="message">%s</xliff:g>.</string>
+    <!-- Dialog box message indicating that a message could not be delivered -->
+    <string name="undelivered_sms_dialog_body">无法发送此信息。</string>
+    <!-- Menu item for deleting the entire conversation currently being viewed -->
+    <string name="delete_thread">删除会话</string>
+    <!-- Context menu item on an individual message for forwarding it to another recipient -->
+    <string name="menu_forward">转发</string>
+    <!-- Text of a button appearing for MMS messages that have not yet been downloaded, causing the message
+         to be downloaded (imperative verb) -->
+    <string name="download">下载</string>
+    <!-- Message displayed in place of the "download message" button once it has been pressed,
+         indicating that the download is in progress -->
+    <string name="downloading">正在下载</string>
+    <!-- Formatting for prepending MMS message text with sender's name. -->
+    <string name="name_colon"><b><xliff:g id="name" example="Me">%s</xliff:g></b>"： "</string>
+    <!-- Formatting for subject displayed inline, prepended to MMS message text -->
+    <string name="inline_subject">"&lt;主题：<xliff:g id="subject">%s</xliff:g>&gt;"</string>
+    <!-- Text to display when the actual text is inaccessible due to DRM protection -->
+    <string name="drm_protected_text">"* 受 DRM 保护的文本 *"</string>
+    <!-- Error message to display when DRM rights are insufficient to access some data -->
+    <string name="insufficient_drm_rights">检测到 DRM 权限不足。</string>
+    <!-- Individual message context menu item -->
+    <string name="copy_message_text">复制短信文本</string>
+    <!-- Header for context menu on an individual message -->
+    <string name="message_options">信息选项</string>
+
+    <!-- Button text on edit slide screen indicating the user wants to finish editing that slide -->
+    <string name="done">完成</string>
+
+    <!-- Menu item in slideshow edit screen for moving the selected slide up in the order -->
+    <string name="move_up">上移</string>
+    <!-- Menu item in slideshow edit screen for moving the selected slide down in the order -->
+    <string name="move_down">下移</string>
+    <!-- Menu item in slideshow edit screen for removing the selected slide from the slideshow -->
+    <string name="remove_slide">删除幻灯片</string>
+    <!-- Menu item in slideshow edit screen for adding a new slide to the slideshow -->
+    <string name="add_slide">添加幻灯片</string>
+    <!-- Text displayed below "Add slide" item in slideshow edit screen -->
+    <string name="add_slide_hint">选择以创建新幻灯片。</string>
+    <!-- Menu item in slideshow edit screen for discarding the entire slideshow -->
+    <string name="discard_slideshow">舍弃幻灯片</string>
+    <!-- Header of slideshow showing which slide is being displayed -->
+    <string name="slide_show_part">第 <xliff:g id="part">%1$s</xliff:g> 部分，共 <xliff:g id="total">%2$s</xliff:g> 部分</string>
+
+
+    <!-- Menu item in slide edit screen for removing the text from the slide being edited -->
+    <string name="remove_text">删除文本</string>
+    <!-- Menu item in slide edit screen for adding a picture to the slide being edited -->
+    <string name="add_picture">添加图片</string>
+    <!-- Menu item in slide edit screen for removing the picture from the slide being edited -->
+    <string name="remove_picture">删除图片</string>
+    <!-- Menu item in slide edit screen for adding music to the slide being edited -->
+    <string name="add_music">添加音乐</string>
+    <!-- Menu item in slide edit screen for removing the music from the slide being edited -->
+    <string name="remove_music">删除音乐</string>
+    <!-- Menu item in slide edit screen for adding a video to the slide being edited -->
+    <string name="add_video">添加视频</string>
+    <!-- Menu item in slide edit screen for removing the video from the slide being edited -->
+    <string name="remove_video">删除视频</string>
+
+    <!-- Title bar displayed in compose message activity before a recipient has been selected -->
+    <string name="compose_title">撰写</string>
+    <!-- Hint displayed in message recipient text box when starting a new conversation -->
+    <string name="to_hint">收件人</string>
+    <!-- Hint displayed in subject edit text box when adding a subject -->
+    <string name="subject_hint">主题</string>
+
+    <!-- Menu item in conversation screen for attaching something to the message being composed -->
+    <string name="add_attachment">添加附件</string>
+    <!-- Menu item in conversation screen for adding a subject to the message being composed -->
+    <string name="add_subject">添加主题</string>
+    <!-- Menu item in conversation screen for discarding the message currently being composed -->
+    <string name="discard">舍弃</string>
+
+    <!-- Button next to an attachment during message composition to view the attachment (imperative verb) -->
+    <string name="view">查看</string>
+    <!-- Button next to an attachment during message composition to replace the attachment (imperative verb) -->
+    <string name="replace">替换</string>
+    <!-- Button next to an attachment during message composition to remove the attachment (imperative verb) -->
+    <string name="remove">删除</string>
+
+    <!-- Button in conversation screen for sending the SMS message currently being composed (imperative verb) -->
+    <string name="send">发送</string>
+    <!-- Text to appear directly below the "Send" text on the SMS/MMS send button. The "MMS" text is on a second line in a smaller font. This is similar to saying "Send (mms)". -->
+    <string name="mms">彩信</string>
+
+    <!-- Menu item in conversation screen for returning to the conversation list -->
+    <string name="all_threads">所有会话</string>
+
+    <!-- Hint text in message body field when keyboard is exposed -->
+    <string name="type_to_compose_text_enter_to_send">输入内容</string>
+    <!-- Hint text in message body field when keyboard is hidden -->
+    <string name="open_keyboard_to_compose_message">打开键盘以撰写信息</string>
+
+    <!-- Dialog title for warning the user that the picture they are trying to attach is too large -->
+    <string name="image_too_large">图片太大</string>
+    <!-- Dialog message text asking the user if he wants to resize the picture being attached -->
+    <string name="ask_for_automatically_resize">发送前自动调整图片大小？</string>
+
+    <!-- Toast message while an image is being resized -->
+    <string name="compressing">图片过大。正在压缩\u2026</string>
+
+    <!-- Error message indicating the format for the specified media type (e.g. "picture") is unsupported -->
+    <string name="unsupported_media_format">不支持 <xliff:g id="name">%1$s</xliff:g> 格式</string>
+    <!-- Message prompting the user to select a different item; item string as type-appropriate (e.g. "picture") -->
+    <string name="select_different_media">请选择另一个<xliff:g id="name">%1$s</xliff:g>.</string>
+    <!-- Message indicating that the message size limit has been reached -->
+    <string name="exceed_message_size_limitation">已达到信息大小上限。</string>
+    <!-- Message indicating that the message is too big and there is no space to attach a video -->
+    <string name="message_too_big_for_video">该信息太大，无法添加视频。</string>
+    <!-- Error message indicating that the item trying to be attached could not be added -->
+    <string name="failed_to_add_media">抱歉，您无法将此<xliff:g id="name">%1$s</xliff:g>添加到信息。</string>
+    <!-- Error message indicating that the picture being attached and resized could not be resized -->
+    <string name="failed_to_resize_image">未调整图片大小。</string>
+    <!-- Error message indicating that an image being attached is still too large to send even after resize -->
+    <string name="resize_image_error_information">抱歉，此图片缩小后仍太大，无法发送。</string>
+    <!-- String prepended to forwarded messages to indicate they were forwarded -->
+    <string name="forward_prefix">转发: </string>
+    <!-- Dialog box title that appears when a draft message will not be saved due to invalid recipients -->
+    <string name="discard_message">舍弃</string>
+    <!-- Dialog message text explaining that a draft message will not be saved due to invalid recipients -->
+    <string name="discard_message_reason">您的信息没有有效的收件人，将被舍弃。</string>
+    <!-- Dialog box title indicating which recipients are invalid when the user tries to send a message with invalid recipients -->
+    <string name="has_invalid_recipient">无效收件人：&lt;<xliff:g id="name">%1$s</xliff:g>&gt;</string>
+    <!-- While sending a message, if it has invalid recipient, display this message. -->
+    <string name="invalid_destination">您输入的地址无效。</string>
+    <!-- Dialog message text when the user tries to send a message with invalid recipients -->
+    <string name="invalid_recipient_message">请更正收件人，否则他们将无法收到信息。</string>
+    <!-- Dialog box title indicating the message cannot be sent because there are no valid recipients -->
+    <string name="cannot_send_message">无法发送此信息</string>
+    <!-- Dialog message text indicating the message cannot be sent because there are no valid recipients -->
+    <string name="cannot_send_message_reason">您的信息没有有效的收件人。</string>
+    <!-- Error message displayed when the user attempts to forward a message with DRM-locked contents -->
+    <string name="cannot_forward_drm_obj">无法转发信息中包含的 DRM 对象。</string>
+
+    <!-- Brief message that appears when converting a message from SMS to MMS. -->
+    <string name="converting_to_picture_message">正在转换为彩信\u2026</string>
+    <!-- Brief message that appears when converting a message from MMS to SMS. -->
+    <string name="converting_to_text_message">正在转换为短信\u2026</string>
+    <!-- Brief message that appears when the maximum number of slides has been reached -->
+    <string name="cannot_add_slide_anymore">无法再添加幻灯片。</string>
+    <!-- Brief message that appears when user tries to add picture to a slide which already has a video. -->
+    <string name="cannot_add_picture_and_video">无法将视频和图片添加到同一张幻灯片。</string>
+    <!-- Brief message that appears when the message cannot be saved -->
+    <string name="cannot_save_message">无法保存信息。</string>
+    <string name="cannot_load_message">无法载入信息。</string>
+    <!-- Brief message that appears when a message has automatically been saved as a draft -->
+    <string name="message_saved_as_draft">信息已存为草稿。</string>
+    <!-- Brief message that appears when an attempt is made to delete a locked message -->
+    <string name="locked_message_cannot_be_deleted">无法删除锁定短信。</string>
+    <!-- Brief message that appears when too many recipients have been added -->
+    <string name="too_many_recipients">此短信的收件人太多 (<xliff:g id="currentCount">%1$s</xliff:g>)。收件人数上限为 <xliff:g id="maxLimit">%2$s</xliff:g> 个。</string>
+    <!-- Brief message that appears when too many videos/pictures are imported -->
+    <string name="too_many_attachments">附件数量上限为 <xliff:g id="maxLimit">%1$s</xliff:g> 个。只会添加前 <xliff:g id="currentCount">%2$s</xliff:g> 个。</string>
+    <!-- Alert dialog title when adding attachments is taking a while -->
+    <string name="adding_attachments_title">正在添加附件</string>
+    <!-- Alert dialog when adding attachments is taking a while -->
+    <string name="adding_attachments">正在向幻灯片添加项，请稍候。</string>
+
+    <!-- Titlebar string when there are more than one recipients -->
+    <string name="multiple_recipients"><xliff:g id="recipientCount">%1$s</xliff:g> 个收件人</string>
+
+    <!-- Error message indicating that an audio attachment cannot be played -->
+    <string name="cannot_play_audio">无法播放音频。</string>
+
+    <!-- Button in the slide editor screen used to preview the slide (imperative verb) -->
+    <string name="preview">预览</string>
+    <!-- Menu item in the slide editor screen used to preview the entire slideshow (imperative verb) -->
+    <string name="preview_slideshow">预览</string>
+    <!-- Button in the slide editor screen used to replace the attached picture -->
+    <string name="replace_image">替换图片</string>
+    <!-- String for slide duration in seconds -->
+    <string name="duration_sec">时长 (<xliff:g id="duration">%s</xliff:g> 秒)</string>
+    <!-- Dialog box title for duration selector -->
+    <string name="duration_selector_title">"幻灯片时长 "</string>
+    <!-- Dialog box title for slide layout selector -->
+    <string name="layout_selector_title">"幻灯片布局 "</string>
+    <!-- Slide layout option for layout at the top -->
+    <string name="layout_top">布局（顶部）</string>
+    <!-- Slide layout option for layout at the bottom -->
+    <string name="layout_bottom">布局（底部）</string>
+    <!-- Hint in slide text field before text is typed -->
+    <string name="type_to_compose_text_or_leave_blank">输入文字或保留空白</string>
+    <!-- Toast when the user enters a non-numeric value for the duration of a slide -->
+    <string name="duration_not_a_number">时长必须为数字</string>
+    <!-- Toast when the user enters a zero value for the duration of a slide -->
+    <string name="duration_zero">时长必须大于 0 秒</string>
+
+    <!-- In duration selection dialog box, short version of "seconds" -->
+    <string name="secs">秒</string>
+    <!-- Options for slide duration in duration selection dialog box -->
+    <string-array name="select_dialog_items">
+         <item>1 秒</item>
+         <item>2 秒</item>
+         <item>3 秒</item>
+         <item>4 秒</item>
+         <item>5 秒</item>
+         <item>6 秒</item>
+         <item>7 秒</item>
+         <item>8 秒</item>
+         <item>9 秒</item>
+         <item>10 秒</item>
+         <item>其他\u2026</item>
+    </string-array>
+
+    <!-- Context menu item on a message recipient for viewing their contact info -->
+    <string name="menu_view_contact">查看联系人</string>
+    <!-- Context menu item on a message recipient for adding them to the user's
+         contacts (used if the recipient is not already in the address book) -->
+    <string name="menu_add_to_contacts">添加到联系人</string>
+
+    <!-- Sender to be used if the sender address has been hidden -->
+    <string name="hidden_sender_address">隐藏的发件人地址</string>
+
+    <!-- Text to be used for affirmative response button in dialog boxes -->
+    <string name="yes">确定</string>
+    <!-- Text to be used for negative response button in dialog boxes -->
+    <string name="no">取消</string>
+    <!-- Text to be used for affirmative response button in setting SMS limits dialog box -->
+    <string name="set">设置</string>
+
+    <!-- Button text used for playing an attachment or slideshow (imperative verb) -->
+    <string name="play">播放</string>
+    <!-- Button text used for editing a slideshow (imperative verb) -->
+    <string name="edit">编辑</string>
+    <!-- Button for resizing an image used in "image too large" dialog box (imperative verb) -->
+    <string name="resize">调整大小</string>
+    <!-- Button used for trying to send a message that has some valid recipients and some
+         invalid recipients, in spite of the warning presented to the user -->
+    <string name="try_to_send">尝试发送</string>
+
+    <!-- Title of Settings screen -->
+    <string name="preferences_title">"设置"</string>
+    <!-- Settings screen menu item for restoring all settings to default -->
+    <string name="restore_default">"还原默认设置"</string>
+
+    <!-- Settings screen, section heading for notifications -->
+    <string name="pref_notification_settings_title">通知设置</string>
+    <!-- Settings screen, section heading for MMS-specific settings -->
+    <string name="pref_mms_settings_title">"彩信设置"</string>
+    <!-- Settings screen, section heading for SMS-specific settings -->
+    <string name="pref_sms_settings_title">"短信设置"</string>
+    <!-- Settings screen, section heading for storage-specific settings -->
+    <string name="pref_sms_storage_title">存储设置</string>
+
+    <!-- Settings item description for entering SIM card message screen -->
+    <string name="pref_summary_manage_sim_messages">管理 SIM 卡中存储的信息</string>
+    <!-- Settings item description for boolean MMS delivery report setting -->
+    <string name="pref_summary_mms_delivery_reports">要求每次发送信息后都返回发送报告</string>
+    <!-- Settings item description for boolean MMS read report setting -->
+    <string name="pref_summary_mms_read_reports">要求每次发送信息后都返回已读回执</string>
+    <!-- Settings item description for boolean SMS delivery report setting -->
+    <string name="pref_summary_sms_delivery_reports">要求每次发送信息后都返回发送报告</string>
+    <!-- Settings item description for boolean auto-delete messages setting -->
+    <string name="pref_summary_auto_delete">达到数量上限时删除旧信息</string>
+    <!-- Settings item description for integer auto-delete sms message limit -->
+    <string name="pref_summary_delete_limit">每个会话限存储 <xliff:g id="count">%1$s</xliff:g> 条短信</string>
+    <!-- Settings item for entering SIM card message screen -->
+    <string name="pref_title_manage_sim_messages">管理 SIM 卡中的信息</string>
+    <!-- Settings item for boolean option to enable/disable MMS delivery reports -->
+    <string name="pref_title_mms_delivery_reports">发送报告</string>
+    <!-- Settings item for boolean option to enable/disable MMS read reports -->
+    <string name="pref_title_mms_read_reports">已读报告</string>
+    <!-- Settings item for boolean option to enable/disable SMS delivery reports -->
+    <string name="pref_title_sms_delivery_reports">发送报告</string>
+    <!-- Settings item for boolean option to enable/disable auto-deletion of messages -->
+    <string name="pref_title_auto_delete">删除旧信息</string>
+    <!-- Settings item for integer option to set SMS delete limit -->
+    <string name="pref_title_sms_delete">短信限制</string>
+    <!-- Settings item for integer option to set MMS delete limit -->
+    <string name="pref_title_mms_delete">彩信限制</string>
+    <!-- Settings item for boolean option to display message notifications -->
+    <string name="pref_title_notification_enabled">通知</string>
+    <!-- Settings item description for boolean message notification option -->
+    <string name="pref_summary_notification_enabled">在状态栏中显示信息通知</string>
+    <!-- Settings item for boolean option to vibrate during message notification -->
+    <string name="pref_title_notification_vibrateWhen">振动</string>
+    <!-- Settings item description for boolean vibrate option -->
+    <string name="pref_summary_notification_vibrateWhen">收到通知时还振动提醒</string>
+    <!-- Settings item for entering ringtone selection screen -->
+    <string name="pref_title_notification_ringtone">选择铃声</string>
+    <!-- Settings item for setting the number of message to save for each conversation -->
+    <string name="pref_messages_to_save">设置要保存的信息数量</string>
+
+    <!-- The vibrate notification modes -->
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>始终</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>仅在静音时</item>
+        <!-- Never -->
+        <item>从不</item>
+    </string-array>
+
+    <!-- Dialog title for the Vibrate dialog -->
+    <string name="prefDialogTitle_vibrateWhen">振动</string>
+
+    <!-- Settings item for boolean option to auto-retrieve incoming MMS messages -->
+    <string name="pref_title_mms_auto_retrieval">自动接收彩信</string>
+    <!-- Settings item description for boolean MMS auto-retrieve option -->
+    <string name="pref_summary_mms_auto_retrieval">自动接收并下载彩信</string>
+    <!-- Settings item for boolean option to auto-retrieve incoming MMS messages while roaming -->
+    <string name="pref_title_mms_retrieval_during_roaming">漫游时自动接收彩信</string>
+    <!-- Settings item description for boolean MMS auto-retrieve while roaming option -->
+    <string name="pref_summary_mms_retrieval_during_roaming">漫游时自动接收并下载彩信</string>
+
+    <!-- Setting item for folder to save MMS Attachments to -->
+    <string name="pref_title_save_location">彩信附件保存位置</string>
+
+    <!-- Label prepended to recipient's name in Undelivered Messages screen -->
+    <string name="to_label">"收件人 "</string>
+
+    <!-- Confirm Delete -->
+    <!-- Delete confirmation dialog title -->
+    <string name="confirm_dialog_title">删除</string>
+    <!-- Delete confirmation dialog title for locked messages -->
+    <string name="confirm_dialog_locked_title">是否删除锁定的信息？</string>
+    <!-- Delete entire thread confirmation dialog message -->
+    <string name="confirm_delete_conversation">将会删除整个会话。</string>
+    <!-- Delete all threads confirmation dialog message -->
+    <string name="confirm_delete_all_conversations">将会删除所有会话。</string>
+    <!-- Delete message confirmation dialog message -->
+    <string name="confirm_delete_message">将会删除此信息。</string>
+    <!-- Delete message confirmation dialog message for a locked message -->
+    <string name="confirm_delete_locked_message">确定要删除此锁定信息吗？</string>
+    <!-- Delete entire thread confirmation dialog message -->
+    <string name="confirm_delete_all_messages">将会删除整个会话。</string>
+    <!-- Delete all the messages on the SIM dialog message -->
+    <string name="confirm_delete_all_SIM_messages">SIM 卡上的所有信息都会删除。</string>
+    <!-- Delete the selected message on the SIM dialog message -->
+    <string name="confirm_delete_SIM_message">SIM 卡上的这条信息会被删除。</string>
+    <!-- Delete unlocked checkbox title -->
+    <string name="delete_unlocked">删除锁定短信</string>
+    <!-- Delete button title -->
+    <string name="delete">删除</string>
+
+    <!-- When the user tries to view message details and some error occurs while
+         retrieving those details, this message will be shown. -->
+    <string name="cannot_get_details">无法获取详细信息</string>
+    <!-- Title of "Message details" dialog -->
+    <string name="message_details_title">消息详情</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_type_label">类型：\u0020</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="text_message">短信</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="multimedia_message">彩信</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="multimedia_notification">彩信通知</string>
+    <!-- Label in "Message details" dialog showing who sent the message. -->
+    <string name="from_label">发件人：\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="to_address_label">收件人：\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="bcc_label">密送：\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="sent_label">发送时间：\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="received_label">接收时间：\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="saved_label">保存时间：\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="subject_label">主题：\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_size_label">信息大小：\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="priority_label">优先级：\u0020</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_high">高</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_normal">正常</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_low">低</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_class_label">信息类别：\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="error_code_label">错误代码：\u0020</string>
+
+   <!-- Menu title for editing a message -->
+   <string name="menu_edit">编辑</string>
+   <!-- Menu title the user can use for trying to resend a message. -->
+   <string name="menu_retry_sending">重试发送</string>
+   <!-- Menu title the user can use for trying to resend all the messages. -->
+   <string name="menu_retry_sending_all">重试发送全部</string>
+   <!-- Menu title for deleting undelivered messages or messages on
+        the SIM card. -->
+   <string name="menu_delete_messages">删除信息</string>
+   <!-- Dialog text displayed when trying to resend an unsent message. -->
+   <string name="retrying_dialog_body">由于连接出现问题，未发送此<xliff:g id="message">%s</xliff:g>信息。\r\n正在尝试重新发送\u2026</string>
+   <!-- Menu title for locking a message -->
+   <string name="menu_lock">锁定信息</string>
+   <!-- Menu title for unlocking a message -->
+   <string name="menu_unlock">解除锁定</string>
+
+    <!-- Manage SIM Messages -->
+    <!-- Menu title to copy a selected message from the SIM card to the phone. -->
+    <string name="sim_copy_to_phone_memory">复制到手机内存</string>
+    <!-- Menu title to delete a selected messaged from the SIM card. -->
+    <string name="sim_delete">删除</string>
+    <!-- Title of screen displaying messages on SIM card -->
+    <string name="sim_manage_messages_title">SIM 卡上的短信</string>
+    <!-- Context menu item but currently commented out in 1.0. -->
+    <string name="sim_view">查看</string>
+    <!-- Message that appears on the "SMS messges on SIM card" screen when there are no messages on the SIM card -->
+    <string name="sim_empty">SIM 卡中无信息。</string>
+
+    <!-- Delivery Header View -->
+    <!-- Title of "Report" window -->
+    <string name="delivery_header_title">报告</string>
+
+    <!-- Delivery Report Activity -->
+    <!-- Status in "Report" window -->
+    <string name="status_none">（无）</string>
+    <!-- Status in "Report" window -->
+    <string name="status_pending">等待发送</string>
+    <!-- Status in "Report" window -->
+    <string name="status_read">已读</string>
+    <!-- Status in "Report" window -->
+    <string name="status_received">已收到</string>
+    <!-- Status in "Report" window -->
+    <string name="status_failed">失败</string>
+    <!-- Status in "Report" window -->
+    <string name="status_unread">未读</string>
+    <!-- Status in "Report" window -->
+    <string name="status_rejected">拒收</string>
+    <!-- Label in "Report" window -->
+    <string name="recipient_label">收件人：\u0020</string>
+    <!-- Label in "Report" window -->
+    <string name="status_label">状态：\u0020</string>
+
+
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_image">照片</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_take_photo">拍摄照片</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_video">视频</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_record_video">拍摄视频</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_sound">音频</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_record_sound">录制音频</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_slideshow">幻灯片</string>
+
+    <!-- Layout Selector Adapter. Slideshow layout dialog option for aligning an icon. -->
+    <string name="select_bottom_text">底部文本</string>
+    <!-- Layout Selector Adapter. Slideshow layout dialog option for aligning an icon. -->
+    <string name="select_top_text">顶部文本</string>
+
+    <!-- Delivery Report Toast dialog content -->
+    <string name="delivery_toast_body">%s已接收消息</string>
+
+    <!-- Delivery Report Notification dialog title. -->
+    <string name="notification_multiple"><xliff:g id="count">%s</xliff:g> 条未读信息。</string>
+    <!-- Delivery Report Notification dialog title. -->
+    <string name="notification_multiple_title">新信息</string>
+
+    <!-- Failed to send/download Notification dialog title. -->
+    <string name="notification_failed_multiple"><xliff:g id="count">%s</xliff:g> 条信息无法发送。</string>
+    <!-- Failed to send/download Notification dialog title. -->
+    <string name="notification_failed_multiple_title">信息未发送</string>
+
+    <!-- Sim Full Notification dialog title. -->
+    <string name="sim_full_title">SIM 卡已满</string>
+    <!-- Sim Full Notification dialog text. -->
+    <string name="sim_full_body">删除部分信息以腾出更多空间。</string>
+
+    <!-- Device Full Notification dialog title. -->
+    <string name="sms_full_title">短信存储已满</string>
+    <!-- Device Full Notification dialog text. -->
+    <string name="sms_full_body">存储空间已满，无法接收传入的信息，请删除旧信息。</string>
+
+    <!-- Sms's Being Rejected Notification dialog title. -->
+    <string name="sms_rejected_title">短信被拒收</string>
+    <!-- Sms's Being Rejected Notification dialog text. -->
+    <string name="sms_rejected_body">由于未知的原因，导致传入的短信被拒收。</string>
+
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this audio to your message. -->
+    <string name="type_audio">音频</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this picture to your message. -->
+    <string name="type_picture">图片</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this video to your message. -->
+    <string name="type_video">视频</string>
+
+    <!-- Dialog title for the Read Report dialog. -->
+    <string name="confirm">确认</string>
+    <!-- Dialog text for the Read Report dialog. -->
+    <string name="message_send_read_report">将会发送已读报告。</string>
+
+    <!-- This is the text of a toast message briefly displayed when a problem occurs
+         while sending. -->
+    <string name="message_queued">当前无法发送信息，将在服务恢复后发送。</string>
+
+    <!-- Download Manager -->
+    <!-- When an error occurs downloading a new message and a subject isn't available, substitute
+         this default subject. -->
+    <string name="no_subject">（无主题）</string>
+    <!-- When an error occurs downloading a new message and the sender is unknown, substitute
+         this default text. -->
+    <string name="unknown_sender">未知发件人</string>
+    <!-- When an error occurs downloading a new message, display this message.
+         An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
+    <string name="dl_failure_notification">下载来自<xliff:g id="from">%2$s</xliff:g>的<xliff:g id="subject">%1$s</xliff:g>信息失败。</string>
+
+    <!-- While downloading a message, if that message has expired, display this message. -->
+    <string name="dl_expired_notification">此信息已过期，将被删除。</string>
+
+    <!-- This is the confirm rate limit alert dialog title. -->
+    <string name="rate_limit_surpassed">确认</string>
+    <!-- This is the confirm rate limit alert dialog text. -->
+    <string name="confirm_rate_limit">即将发送多条彩信。确定要这样做吗？</string>
+
+    <!-- Message Failed Notification -->
+    <!-- Dialog box title when receiving a message failed. -->
+    <string name="message_download_failed_title">信息未下载</string>
+    <!-- Dialog box title when sending a message failed. -->
+    <string name="message_send_failed_title">信息未发送</string>
+    <!-- Dialog box message text when failure occurs sending a message. -->
+    <string name="message_failed_body">选择以检查信息并重试。</string>
+    <!-- Dialog box message when there's a problem retrieving messages. -->
+    <string name="download_later">当前无法下载。请稍后再试。</string>
+
+    <!-- Title for audio file picker -->
+    <string name="select_audio">选择音频</string>
+    <!-- Menu title to copy an attachment to the SD card -->
+    <string name="copy_to_sdcard">将附件复制到 SD 卡</string>
+    <!-- Toast message on successful copy to SD card -->
+    <string name="copy_to_sdcard_success">已将附件复制到 SD 卡</string>
+    <!-- Toast message on failed copy to SD card -->
+    <string name="copy_to_sdcard_fail">无法将附件复制到 SD 卡</string>
+    <!-- Menu title to save a sound as a ringtone -->
+    <string name="save_ringtone">另存为铃声</string>
+    <!-- Toast message on successful copying ringtone to drm provider -->
+    <string name="saved_ringtone">铃声已保存</string>
+    <!-- Toast message on failed copying ringtone to drm provider -->
+    <string name="saved_ringtone_fail">无法保存铃声</string>
+    <!-- Menu item -->
+    <string name="menu_insert_smiley">插入表情符号</string>
+
+    <!-- This is the dialog title for the "Select link" dialog, shown when the user clicks on a
+    chat in the chat history view if there are links in the chat message. The dialog displays the
+    links if there are any -->
+    <string name="select_link_title">选择操作</string>
+
+    <!-- Name of the Nth slide, shown in the list in the slideshow editor. -->
+    <string name="slide_number">幻灯片 <xliff:g id="number" example="5">%s</xliff:g></string>
+    <!-- Duration of the slide, shown in the list in the slideshow editor -->
+    <plurals name="slide_duration">
+        <!-- Case of 1-second duration. -->
+        <item quantity="one"><xliff:g id="number" example="1">%s</xliff:g> 秒</item>
+        <!-- Case of "few" (small number of) seconds of duration. -->
+        <item quantity="few"><xliff:g id="number" example="2">%s</xliff:g> 秒</item>
+        <!-- Case of multiple-second duration. -->
+        <item quantity="other"><xliff:g id="number" example="15">%s</xliff:g> 秒</item>
+    </plurals>
+
+    <!-- Title of the delivery report activity. -->
+    <string name="delivery_report_activity">发送报告</string>
+
+    <!-- Title of the activity that tells the user about storage limits. -->
+    <string name="storage_limits_activity">存储限制</string>
+
+    <!-- Title of the add-attachment activity. -->
+    <string name="add_attachment_activity">选择附件：</string>
+
+    <!-- Title of the layout-selector activity. -->
+    <string name="select_layout_activity">选择布局</string>
+
+    <!-- Title of the slide duration editor activity. -->
+    <string name="change_duration_activity">更改时长</string>
+
+    <!-- Title of the slide text editor activity. -->
+    <string name="edit_text_activity">编辑文本</string>
+
+    <!-- Title of the slideshow editor activity. -->
+    <string name="edit_slideshow_activity">编辑幻灯片</string>
+
+    <!-- Title of the slide editor activity. -->
+    <string name="edit_slide_activity">编辑幻灯片</string>
+
+    <!-- Title of the number picker activity. -->
+    <string name="pick_numbers_activity">选取数字</string>
+
+    <!-- Title of the slideshow activity. -->
+    <string name="slideshow_activity">幻灯片</string>
+
+    <!-- Title of the class-0 message activity. -->
+    <string name="class_0_message_activity">0 类信息</string>
+
+    <!-- Title of the send-using-MMS activity. -->
+    <string name="send_using_mms_activity">以彩信形式发送\u2026</string>
+
+    <!-- Title of the select-contact-method activity. -->
+    <string name="select_contact_method_activity">选择联系方式</string>
+
+    <!-- Application name shown when searching -->
+    <string name="search_label">信息</string>
+
+    <!-- Search hint -->
+    <string name="search_hint">搜索信息</string>
+
+    <!-- Search activity name -->
+    <string name="search">信息</string>
+    <!-- Search setting description -->
+    <string name="search_setting_description">信息中的文字</string>
+
+    <!--  Search empty results -->
+    <string name="search_empty">没有匹配项</string>
+
+    <!--  Search results title -->
+    <plurals name="search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> 项符合 \"<xliff:g id="search" example="???">%2$s</xliff:g>\" 的搜索结果</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> 项符合 \"<xliff:g id="search" example="???">%2$s</xliff:g>\" 的搜索结果</item>
+    </plurals>
+
+    <!--- String saved in history searches. -->
+    <string name="search_history"><xliff:g id="count">%1$s</xliff:g> 项符合 \"<xliff:g id="search">%2$s</xliff:g>\" 的搜索结果</string>
+
+    <!-- Button title in Messaging preferences. -->
+    <string name="confirm_clear_search_title">清除</string>
+    <!-- Text for the preferences button. -->
+    <string name="confirm_clear_search_text">搜索历史记录将被清除。</string>
+    <!--- Button title in preferences to clear the search history. It's a verb action that takes place
+          immediately when clicked. -->
+    <string name="pref_mms_clear_search_history_title">清除搜索历史记录</string>
+    <!--- Button description in preferences to clear the search history. -->
+    <string name="pref_mms_clear_search_history_summary">清除以前的短信搜索历史记录，使其不再出现在“搜索”框中</string>
+
+    <!-- Dialog text for display mode save dialog. -->
+    <string name="save">保存</string>
+
+    <!-- Dialog title for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_title">限制短信数</string>
+
+    <!-- Dialog message for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_message">是否要限制每个会话存储的短信数？</string>
+
+    <!-- Button title for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_setting">设置限制</string>
+
+    <!-- Button title to dismiss dialog that informs user about new storage settings. -->
+    <string name="storage_limits_setting_dismiss">无限制</string>
+
+    <!-- Toast message when a user tries to send a Mms message when there are already too many
+         outstanding unsent message. -->
+    <string name="too_many_unsent_mms">目前不能发送消息。未发送的彩信过多。</string>
+
+    <!-- Label for the "Me" number of this phone. -->
+    <string name="me">我</string>
+
+    <!-- Brief small label shown to right of message when it is being sent. -->
+    <string name="sending_message">正在发送\u2026</string>
+
+    <!-- Faruq: CyanogenMod poison -->
+    <!-- Change Vibrate settings for message notification -->
+
+    <string name="pref_title_mms_notification_vibrate_settings">振动设置</string>
+    <string name="pref_title_mms_notification_vibrate_pattern">振动模式</string>
+    <string name="pref_summary_mms_notification_vibrate_pattern">更改振动模式</string>
+    <string name="pref_title_mms_notification_vibrate_call">通话中收到消息时振动</string>
+    <string name="pref_summary_mms_notification_vibrate_call">当通话中收到消息时振动手机</string>
+
+    <!-- Extra Settings: -->
+    <string name="pref_extra_settings">其他设置</string>
+
+    <string name="pref_title_mms_back_to_all_threads">返回到所有会话列表</string>
+    <string name="pref_summary_mms_back_to_all_threads">点击返回键时总是返回到所有会话列表</string>
+
+    <string name="pref_title_mms_fullscreen_landscape">横屏全键盘</string>
+    <string name="pref_summary_mms_fullscreen_landscape">允许/禁用 横屏模式下的全屏键盘</string>
+
+    <string name="pref_title_mms_send_on_enter">按回车键发送短信</string>
+    <string name="pref_summary_mms_send_on_enter">允许/禁用 通过按回车键发送短信</string>
+
+    <string name="pref_mms_custom_option">自定义..</string>
+    <string name="pref_title_mms_user_agent">自定义用户代理标识</string>
+    <string name="pref_summary_mms_user_agent">发送彩信时使用其他手机的用户代理标识</string>
+    <string name="pref_mms_user_agent_custom_set">自定义用户代理标识设为：\n</string>
+    <string name="pref_title_only_mobile_numbers">只显示手机号码</string>
+    <string name="pref_summary_only_mobile_numbers">在收件人栏中只显示手机号码</string>
+    <string name="pref_title_mms_email_addr_completion">邮件地址自动完成</string>
+    <string name="pref_summary_mms_email_addr_completion">允许/禁用 收件人邮件地址自动完成功能</string>
+
+    <!-- Toggle setting for enable/disable Black Background -->
+    <string name="pref_title_mms_black_background">黑色背景</string>
+    <string name="pref_summary_mms_black_background">允许/禁用 黑色背景\n(需重启程序)</string>
+
+    <string name="pref_title_mms_full_timestamp">显示完整时间</string>
+    <string name="pref_summary_mms_full_timestamp">在信息中显示完整的日期和时间</string>
+
+    <!-- Message Font size -->
+    <string name="pref_title_mms_message_font_size">信息字体大小</string>
+    <string name="pref_summary_mms_message_font_size">更改显示信息的字体大小</string>
+    <string name="pref_dialogtitle_mms_message_font_size">选择字体大小</string>
+</resources>
+

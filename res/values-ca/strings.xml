@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_label">Missatgeria</string>
+  <string name="new_message">Nou missatge</string>
+  <string name="create_new_message">Escriu un missatge</string>
+  <string name="menu_call_back">Truca a <xliff:g id="name">%s</xliff:g></string>
+  <string name="menu_send_email">Envia email a <xliff:g id="name">%s</xliff:g></string>
+  <string name="menu_compose_new">Crea missatge</string>
+  <string name="menu_preferences">Paràmetres</string>
+  <string name="menu_add_address_to_contacts">Afegir <xliff:g id="name">%s</xliff:g> als contactes</string>
+  <string name="menu_call">Truca</string>
+  <string name="menu_delete_all">Esborra converses</string>
+  <string name="menu_delete">Esborra conversa</string>
+  <string name="menu_undelivered_messages">Missatges no entregats</string>
+  <string name="menu_view">Veure conversa</string>
+  <string name="refreshing">Actualitzant…</string>
+  <string name="has_draft">Esborrany</string>
+  <string name="broadcast_from_to"><xliff:g id="sender" example="me">%1$s</xliff:g> a <xliff:g id="recipient" example="Megan">%2$s</xliff:g></string>
+  <string name="anonymous_recipient">Anònim</string>
+  <string name="no_subject_view">(Sense assumpte)</string>
+  <string name="messagelist_sender_self">Jo</string>
+  <string name="view_picture">Veure imatge</string>
+  <string name="view_slideshow">Veure diapositives</string>
+  <string name="view_message_details">Veure detalls del missatge</string>
+  <string name="view_delivery_report">Veure informe</string>
+  <string name="delete_message">Esborra missatge</string>
+  <string name="sent_on">"Enviat: <xliff:g id="date">%s</xliff:g>"</string>
+  <string name="expire_on">"Caduca: <xliff:g id="date">%s</xliff:g>"</string>
+  <string name="kilobyte">KB</string>
+  <string name="undelivered_msg_dialog_title">Missatge no entregat</string>
+  <string name="undelivered_msg_dialog_body">No es pot enviar el missatge.\n Intents:  <xliff:g id="message">%s</xliff:g>.</string>
+  <string name="undelivered_sms_dialog_body">No es pot enviar el missatge.</string>
+  <string name="delete_thread">Esborra conversa</string>
+  <string name="menu_forward">Reenvia</string>
+  <string name="download">Descarrega</string>
+  <string name="downloading">Descarregant</string>
+  <string name="name_colon"><b><xliff:g id="name" example="Me">%s</xliff:g></b>": "</string>
+  <string name="inline_subject">"&lt;Assumpte: <xliff:g id="subject">%s</xliff:g>&gt;"</string>
+  <string name="drm_protected_text">* text protegit per DRM *</string>
+  <string name="insufficient_drm_rights">No tens prou privilegis de DRM.</string>
+  <string name="copy_message_text">Copia text del missatge</string>
+  <string name="message_options">Opcions del missatge</string>
+  <string name="done">Fet</string>
+  <string name="move_up">Amunt</string>
+  <string name="move_down">Avall</string>
+  <string name="remove_slide">Esborra diapositiva</string>
+  <string name="add_slide">Afegeix diapositiva</string>
+  <string name="add_slide_hint">Selecciona per crear diapositiva.</string>
+  <string name="discard_slideshow">Descarta diapositiva</string>
+  <string name="slide_show_part">Part <xliff:g id="part">%1$s</xliff:g>/<xliff:g id="total">%2$s</xliff:g></string>
+  <string name="remove_text">Esborra text</string>
+  <string name="add_picture">Afegeix imatge</string>
+  <string name="remove_picture">Esborra imatge</string>
+  <string name="add_music">Afegeix música</string>
+  <string name="remove_music">Esborra música</string>
+  <string name="add_video">Afegeix vídeo</string>
+  <string name="remove_video">Esborra vídeo</string>
+  <string name="compose_title">Crea missatge</string>
+  <string name="to_hint">Per a</string>
+  <string name="subject_hint">Assumpte</string>
+  <string name="add_attachment">Afegeix adjunt</string>
+  <string name="add_subject">Afegeix assumpte</string>
+  <string name="discard">Descarta</string>
+  <string name="view">Visualitza</string>
+  <string name="replace">Substitueix</string>
+  <string name="remove">Esborra</string>
+  <string name="send">Envia</string>
+  <string name="mms">MMS</string>
+  <string name="all_threads">Totes les converses</string>
+  <string name="type_to_compose_text_enter_to_send">Escriu el missatge</string>
+  <string name="open_keyboard_to_compose_message">Obre el teclat per a escriure un missatge</string>
+  <string name="image_too_large">Imatge massa gran</string>
+  <string name="ask_for_automatically_resize">Canviar la mida de la imatge automàticament en enviar?</string>
+  <string name="compressing">Imatge massa grossa, comprimint…</string>
+  <string name="unsupported_media_format">Format <xliff:g id="name">%1$s</xliff:g> no compatible</string>
+  <string name="select_different_media">Selecciona un <xliff:g id="name">%1$s</xliff:g> diferent.</string>
+  <string name="exceed_message_size_limitation">S\'ha superat el màxim del missatge.</string>
+  <string name="message_too_big_for_video">El missatge és massa gros per a adjuntar-hi un vídeo.</string>
+  <string name="failed_to_add_media">No pots afegir <xliff:g id="name">%1$s</xliff:g> al missatge.</string>
+  <string name="failed_to_resize_image">Imatge no modificada.</string>
+  <string name="resize_image_error_information">La imatge modificada també és massa grossa per a enviar.</string>
+  <string name="forward_prefix">Reenv:\u0020</string>
+  <string name="discard_message">Descarta</string>
+  <string name="discard_message_reason">El missatge serà descartat perquè no té destinataris vàlids.</string>
+  <string name="has_invalid_recipient">Destinatari(s) no vàlid(s): &lt;<xliff:g id="name">%1$s</xliff:g>&gt;</string>
+  <string name="invalid_destination">L\'adreça és incorrecta.</string>
+  <string name="invalid_recipient_message">Corregeix el destinatari o no rebrà el missatge.</string>
+  <string name="cannot_send_message">No es pot enviar el missatge</string>
+  <string name="cannot_send_message_reason">El missatge no té destinataris vàlids.</string>
+  <string name="cannot_forward_drm_obj">L\'objecte DRM inclòs al missatge no es pot reenviar.</string>
+  <string name="converting_to_picture_message">Convertint a missatge multimèdia…</string>
+  <string name="converting_to_text_message">Convertint a missatge de text…</string>
+  <string name="cannot_add_slide_anymore">No es poden afegir més diapositives.</string>
+  <string name="cannot_add_picture_and_video">No es pot afegir vídeo i imatge a una diapositiva.</string>
+  <string name="cannot_save_message">No es pot desar el missatge.</string>
+  <string name="cannot_load_message">No es pot carregar el missatge.</string>
+  <string name="message_saved_as_draft">Missatge desat com a esborrany.</string>
+  <string name="locked_message_cannot_be_deleted">El missatge bloquejat no es pot esborrar.</string>
+  <string name="too_many_recipients">El missatge té massa destinataris(<xliff:g id="currentCount">%1$s</xliff:g>). Hi ha un límit de <xliff:g id="maxLimit">%2$s</xliff:g> destinataris.</string>
+  <string name="too_many_attachments">Hi ha un límit de <xliff:g id="maxLimit">%1$s</xliff:g> fitxers adjunts, només s\'afegiran els primers <xliff:g id="currentCount">%2$s</xliff:g>.</string>
+  <string name="adding_attachments_title">Afegint fitxers adjunts</string>
+  <string name="adding_attachments">Espera mentre els elements s\'afegeixen a les diapositives.</string>
+  <string name="multiple_recipients"><xliff:g id="recipientCount">%1$s</xliff:g> destinataris</string>
+  <string name="cannot_play_audio">No es pot reproduir l\'àudio.</string>
+  <string name="preview">Vista prèvia</string>
+  <string name="preview_slideshow">Vista prèvia</string>
+  <string name="replace_image">Substitueix imatge</string>
+  <string name="duration_sec">Durada (<xliff:g id="duration">%s</xliff:g> seg)</string>
+  <string name="duration_selector_title">Durada per diapositiva\u0020</string>
+  <string name="layout_selector_title">Disseny de les diapositives\u0020</string>
+  <string name="layout_top">Disseny (superior)</string>
+  <string name="layout_bottom">Disseny (peu)</string>
+  <string name="type_to_compose_text_or_leave_blank">Escriu el text, o deixa\'l en blanc</string>
+  <string name="duration_not_a_number">La durada ha de ser un número</string>
+  <string name="duration_zero">La durada ha de ser major de zero segons</string>
+  <string name="secs">segs</string>
+  <string name="menu_view_contact">Visualitza el contacte</string>
+  <string name="menu_add_to_contacts">Afegeix als contactes</string>
+  <string name="hidden_sender_address">Amaga el remitent</string>
+  <string name="yes">D\'acord</string>
+  <string name="no">Cancel·la</string>
+  <string name="set">Configura</string>
+  <string name="play">Executa</string>
+  <string name="edit">Edita</string>
+  <string name="resize">Redimensiona</string>
+  <string name="try_to_send">Intenta enviar</string>
+  <string name="preferences_title">Paràmetres</string>
+  <string name="restore_default">Paràmetres per defecte</string>
+  <string name="pref_notification_settings_title">Paràmetres de notificació</string>
+  <string name="pref_mms_settings_title">Paràmetres de MMS</string>
+  <string name="pref_sms_settings_title">Paràmetres de SMS</string>
+  <string name="pref_sms_storage_title">Paràmetres d\'emmagatzematge</string>
+  <string name="pref_summary_manage_sim_messages">Gestiona els missatges de la SIM</string>
+  <string name="pref_summary_mms_delivery_reports">Informe d\'entrega de cada missatge enviat</string>
+  <string name="pref_summary_mms_read_reports">Informe de lectura de cada missatge enviat</string>
+  <string name="pref_summary_sms_delivery_reports">Informe d\'entrega de cada missatge enviat</string>
+  <string name="pref_summary_auto_delete">Esborra missatges vells quan s\'arribi al màxim</string>
+  <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> missatges per conversa</string>
+  <string name="pref_title_manage_sim_messages">Gestiona missatges de la SIM</string>
+  <string name="pref_title_mms_delivery_reports">Informes d\'entrega</string>
+  <string name="pref_title_mms_read_reports">Llegir informes</string>
+  <string name="pref_title_sms_delivery_reports">Informes d\'entrega</string>
+  <string name="pref_title_auto_delete">Esborra missatges vells</string>
+  <string name="pref_title_sms_delete">Límit de missatges de text</string>
+  <string name="pref_title_mms_delete">Límit de missatges multimèdia</string>
+  <string name="pref_title_notification_enabled">Notificacions</string>
+  <string name="pref_summary_notification_enabled">Mostra notificacions a la barra d\'estat</string>
+  <string name="pref_title_notification_vibrateWhen">Vibra</string>
+  <string name="pref_summary_notification_vibrateWhen">Vibra també en notificar</string>
+  <string name="pref_title_notification_ringtone">Selecciona to</string>
+  <string name="pref_messages_to_save">Configura nombre de missatges a desar</string>
+  <string name="prefDialogTitle_vibrateWhen">Vibra</string>
+  <string name="pref_title_mms_auto_retrieval">Autorecupera</string>
+  <string name="pref_summary_mms_auto_retrieval">Recupera els missatges automàticament</string>
+  <string name="pref_title_mms_retrieval_during_roaming">Autorecupera en itinerància</string>
+  <string name="pref_summary_mms_retrieval_during_roaming">Recupera els missatges automàticament en itinerància</string>
+  <string name="pref_title_save_location">Directori on desar els adjunts</string>
+  <string name="to_label">A\u0020</string>
+  <string name="confirm_dialog_title">Esborra</string>
+  <string name="confirm_dialog_locked_title">Esborra el missatge bloquejat?</string>
+  <string name="confirm_delete_conversation">S\'esborrarà la conversa sencera.</string>
+  <string name="confirm_delete_all_conversations">S\'esborraran totes les converses.</string>
+  <string name="confirm_delete_message">S\'esborrarà el missatge.</string>
+  <string name="confirm_delete_locked_message">Segur que vols esborrar aquest missatge?</string>
+  <string name="confirm_delete_all_messages">S\'esborrarà la conversa sencera.</string>
+  <string name="confirm_delete_all_SIM_messages">S\'esborraran tots els missatges de la SIM.</string>
+  <string name="confirm_delete_SIM_message">S\'esborrarà el missatge de la SIM.</string>
+  <string name="delete_unlocked">Esborra missatges bloquejats</string>
+  <string name="delete">Esborra</string>
+  <string name="cannot_get_details">No es poden obtenir els detalls</string>
+  <string name="message_details_title">Detalls del missatge</string>
+  <string name="message_type_label">Escriu:\u0020</string>
+  <string name="text_message">Missatge de text</string>
+  <string name="multimedia_message">Missatge multimèdia</string>
+  <string name="multimedia_notification">Notificació de missatge multimèdia</string>
+  <string name="from_label">De:\u0020</string>
+  <string name="to_address_label">A:\u0020</string>
+  <string name="bcc_label">CCO:\u0020</string>
+  <string name="sent_label">Enviat:\u0020</string>
+  <string name="received_label">Rebut:\u0020</string>
+  <string name="saved_label">Desat:\u0020</string>
+  <string name="subject_label">Assumpte:\u0020</string>
+  <string name="message_size_label">Mida:\u0020</string>
+  <string name="priority_label">Prioritat:\u0020</string>
+  <string name="priority_high">Alta</string>
+  <string name="priority_normal">Normal</string>
+  <string name="priority_low">Baixa</string>
+  <string name="message_class_label">Tipus de missatge:\u0020</string>
+  <string name="error_code_label">Codi d\'error:\u0020</string>
+  <string name="menu_edit">Edita</string>
+  <string name="menu_retry_sending">Reintenta l\'enviament</string>
+  <string name="menu_retry_sending_all">Reintenta tots els enviaments</string>
+  <string name="menu_delete_messages">Esborra missatges</string>
+  <string name="retrying_dialog_body">El missatge <xliff:g id="message">%s</xliff:g> no s\'ha enviat a causa de problemes de connexió.\nReintentant…</string>
+  <string name="menu_lock">Bloqueja el missatge</string>
+  <string name="menu_unlock">Desbloqueja missatge</string>
+  <string name="sim_copy_to_phone_memory">Copia a la memòria del telèfon</string>
+  <string name="sim_delete">Esborra</string>
+  <string name="sim_manage_messages_title">Missatges de text a la SIM</string>
+  <string name="sim_view">Visualitza</string>
+  <string name="sim_empty">No hi ha missatges a la SIM.</string>
+  <string name="delivery_header_title">Informe</string>
+  <string name="status_none">(Cap)</string>
+  <string name="status_pending">Pendents</string>
+  <string name="status_read">Llegits</string>
+  <string name="status_received">Rebuts</string>
+  <string name="status_failed">Fallits</string>
+  <string name="status_unread">No llegits</string>
+  <string name="status_rejected">Rebutjats</string>
+  <string name="recipient_label">Destinatari:\u0020</string>
+  <string name="status_label">Estat:\u0020</string>
+  <string name="attach_image">Imatges</string>
+  <string name="attach_take_photo">Grava imatge</string>
+  <string name="attach_video">Vídeos</string>
+  <string name="attach_record_video">Grava vídeo</string>
+  <string name="attach_sound">Àudio</string>
+  <string name="attach_record_sound">Grava àudio</string>
+  <string name="attach_slideshow">Diapositives</string>
+  <string name="select_bottom_text">Text al peu</string>
+  <string name="select_top_text">Text a la capçalera</string>
+  <string name="delivery_toast_body">Missatge rebut per %s</string>
+  <string name="notification_multiple"><xliff:g id="count">%s</xliff:g> missatges sense llegir.</string>
+  <string name="notification_multiple_title">Missatges nous</string>
+  <string name="notification_failed_multiple">No es poden enviar <xliff:g id="count">%s</xliff:g> missatges.</string>
+  <string name="notification_failed_multiple_title">Missatges no enviats</string>
+  <string name="sim_full_title">Tarjeta SIM plena</string>
+  <string name="sim_full_body">Esborra missatges per a tenir més espai.</string>
+  <string name="sms_full_title">Memòria dels SMS plena</string>
+  <string name="sms_full_body">El missatge entrant es rebutjarà perquè no hi ha memòria. Esborra missatges.</string>
+  <string name="sms_rejected_title">Missatge de text rebutjat</string>
+  <string name="sms_rejected_body">Missatge entrant rebutjat per raons desconegudes.</string>
+  <string name="type_audio">àudio</string>
+  <string name="type_picture">imatge</string>
+  <string name="type_video">vídeo</string>
+  <string name="confirm">Confirma</string>
+  <string name="message_send_read_report">S\'enviarà un informe de lectura.</string>
+  <string name="message_queued">No es pot enviar el missatge. S\'enviarà quan es restableixi el servei.</string>
+  <string name="no_subject">(Sense assumpte)</string>
+  <string name="unknown_sender">Remitent desconegut</string>
+  <string name="dl_failure_notification">Error en la descàrrega del missatge <xliff:g id="subject">%1$s</xliff:g> de <xliff:g id="from">%2$s</xliff:g>.</string>
+  <string name="dl_expired_notification">Aquest missatge ha caducat i s\'esborrarà.</string>
+  <string name="rate_limit_surpassed">Confirma</string>
+  <string name="confirm_rate_limit">S\'enviarà un gran número de MMS. És correcte?</string>
+  <string name="message_download_failed_title">Missatge no descarregat</string>
+  <string name="message_send_failed_title">Missatge no enviat</string>
+  <string name="message_failed_body">Selecciona per a revisar el missatge i torna a intentar-ho.</string>
+  <string name="download_later">No es pot descarregar. Prova-ho més tard.</string>
+  <string name="select_audio">Selecciona l\'àudio</string>
+  <string name="copy_to_sdcard">Copia els adjunts a la SD</string>
+  <string name="copy_to_sdcard_success">Adjunts copiats a la SD</string>
+  <string name="copy_to_sdcard_fail">Ha fallat la còpia de l\'adjunt a la SD</string>
+  <string name="save_ringtone">Desa com a to</string>
+  <string name="saved_ringtone">To desat</string>
+  <string name="saved_ringtone_fail">No s\'ha desat el to</string>
+  <string name="menu_insert_smiley">Insereix emoticona</string>
+  <string name="select_link_title">Selecciona una acció</string>
+  <string name="slide_number">Diapositiva <xliff:g id="number" example="5">%s</xliff:g></string>
+  <string name="delivery_report_activity">Informe d\'entrega</string>
+  <string name="storage_limits_activity">Límits d\'emmagatzemament</string>
+  <string name="add_attachment_activity">Afegeix adjunt:</string>
+  <string name="select_layout_activity">Selecciona disseny</string>
+  <string name="change_duration_activity">Canvia la durada</string>
+  <string name="edit_text_activity">Edita el text</string>
+  <string name="edit_slideshow_activity">Edita la diapositiva</string>
+  <string name="edit_slide_activity">Edita diapositiva</string>
+  <string name="pick_numbers_activity">Selecciona els números</string>
+  <string name="slideshow_activity">Diapositives</string>
+  <string name="class_0_message_activity">Missatge de tipus 0</string>
+  <string name="send_using_mms_activity">Envia com a missatge multimèdia…</string>
+  <string name="select_contact_method_activity">Selecciona mètode de contacte</string>
+  <string name="search_label">Missatgeria</string>
+  <string name="search_hint">Buscant missatgeria</string>
+  <string name="search">Missatgeria</string>
+  <string name="search_setting_description">Text als missatges</string>
+  <string name="search_empty">Sense coincidències</string>
+  <string name="search_history"><xliff:g id="count">%1$s</xliff:g> resultats per a \"<xliff:g id="search">%2$s</xliff:g>\"</string>
+  <string name="confirm_clear_search_title">Neteja</string>
+  <string name="confirm_clear_search_text">Es netejarà la història de cerca.</string>
+  <string name="pref_mms_clear_search_history_title">Neteja la història de cerca</string>
+  <string name="pref_mms_clear_search_history_summary">Neteja les cerques anteriors i no les mostris en el formulari de cerca</string>
+  <string name="save">Desa</string>
+  <string name="storage_limits_title">Límit de missatges</string>
+  <string name="storage_limits_message">Vols limitar el número de missatges que es desen en cada conversa?</string>
+  <string name="storage_limits_setting">Configura els límits</string>
+  <string name="storage_limits_setting_dismiss">Sense límits</string>
+  <string name="too_many_unsent_mms">No es pot enviar el missatge, hi ha massa MMS no enviats.</string>
+  <string name="me">Jo</string>
+  <string name="sending_message">Enviant…</string>
+  <string name="pref_title_mms_notification_vibrate_settings">Paràmetres de vibració</string>
+  <string name="pref_title_mms_notification_vibrate_pattern">Patró de vibració</string>
+  <string name="pref_summary_mms_notification_vibrate_pattern">Canvia el patró de vibració</string>
+  <string name="pref_title_mms_notification_vibrate_call">Vibració durant les trucades</string>
+  <string name="pref_summary_mms_notification_vibrate_call">Permet que vibri durant una trucada</string>
+  <string name="pref_extra_settings">Configuracions addicionals</string>
+  <string name="pref_title_mms_back_to_all_threads">Tornar a tots els temes</string>
+  <string name="pref_summary_mms_back_to_all_threads">Visualitza tots els temes quan es prem el botó Enrere</string>
+  <string name="pref_title_mms_fullscreen_landscape">Pantalla completa apaisada</string>
+  <string name="pref_summary_mms_fullscreen_landscape">Activa/desactiva el teclat de pantalla completa en mode apaisat</string>
+  <string name="pref_title_mms_send_on_enter">Envia en prémer Enter</string>
+  <string name="pref_summary_mms_send_on_enter">Activa/desactiva enviar el missatge quan premeu la tecla Enter</string>
+  <string name="pref_mms_custom_option">Personalitzat..</string>
+  <string name="pref_title_mms_user_agent">Agent d\'usuari personalitzat</string>
+  <string name="pref_summary_mms_user_agent">Mostra el telèfon com a un model diferent per als MMS</string>
+  <string name="pref_mms_user_agent_custom_set">Agent d\'usuari personalitzat establert a:\n</string>
+  <string name="pref_title_only_mobile_numbers">Només els números de mòbil</string>
+  <string name="pref_summary_only_mobile_numbers">Activeu per mostrar només els números de mòbils en el camp de destinatari</string>
+  <string name="pref_title_mms_email_addr_completion">Autocompleta les adreces</string>
+  <string name="pref_summary_mms_email_addr_completion">Activa/desactiva l\'autocompletat d\'adreces de correu en el camp destinatari</string>
+  <string name="pref_title_mms_black_background">Fons de pantalla negre</string>
+  <string name="pref_summary_mms_black_background">Activa/desactiva el fons negre\n(Cal reiniciar l\'aplicació)</string>
+  <string name="pref_title_mms_full_timestamp">Data i hora senceres</string>
+  <string name="pref_summary_mms_full_timestamp">Activeu per mostrar la data i l\'hora en els missatges</string>
+  <string name="pref_title_mms_message_font_size">Mida de la lletra dels missatges</string>
+  <string name="pref_summary_mms_message_font_size">Mida de la font en la visualització dels missatges</string>
+  <string name="pref_dialogtitle_mms_message_font_size">Trieu la mida de lletra</string>
+  <string-array name="select_dialog_items">
+    <item>1 segon</item>
+    <item>2 segons</item>
+    <item>3 segons</item>
+    <item>4 segons</item>
+    <item>5 segons</item>
+    <item>6 segons</item>
+    <item>7 segons</item>
+    <item>8 segons</item>
+    <item>9 segons</item>
+    <item>10 segons</item>
+    <item>Altres \u2026</item>
+  </string-array>
+  <string-array name="prefEntries_vibrateWhen">
+    <item>Sempre</item>
+    <item>Només en mode silenciós</item>
+    <item>Mai</item>
+  </string-array>
+  <plurals name="slide_duration">
+    <item quantity="one"><xliff:g id="number" example="1">%s</xliff:g> seg</item>
+    <item quantity="few"><xliff:g id="number" example="2">%s</xliff:g> segs</item>
+    <item quantity="other"><xliff:g id="number" example="15">%s</xliff:g> segs</item>
+  </plurals>
+  <plurals name="search_results_title">
+    <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> resultat per a \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+    <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> resultats per a \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+  </plurals>
+</resources>
